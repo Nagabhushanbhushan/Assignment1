@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+#main{
+	background-image:url('car.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+}
+div,main,section,*{
+	margin:0;
+	padding:0;
+}
+#layer{
+	background:rgba(0,0,0,0.6);
+
+}
+.border-btn{
+	border-bottom:2px solid #fff;
+	padding-bottom:20px;
+}
+#btn{
+	float:right;
+	}
